@@ -3,30 +3,35 @@
 }
 body {
     margin: 0;
+    
 }
 .text-header {
     margin-top:2rem;
     font-size:3rem;
     color: rgb(51, 107, 142);
+    font-family: 'Alex Brush', sans-serif;
 }
 
 .text-container {
     margin-top: 5rem ;
 
     text-align: center;
+    background-color: rgb(255, 253, 248);
 
     border: 3px solid rgb(0, 1, 2);
     border-radius: 20px;
     width: 50%;
-    height: 400px;
+    height: 500px;
 
 }
 .text-quote{
-    margin-left: 7rem;
+    margin-left: 5rem;
     margin-right:2rem;
     margin-top:2rem;
     text-align: left;
     font-size: 1.25rem;
+    font-family:'Roboto', sans-serif;
+
 }
 .text-author {
     margin-right: 7rem;
@@ -34,4 +39,10 @@ body {
     margin-top:2rem;
     text-align: right;
     font-size: 0.85rem;
+    font-family: 'Alex Brush', sans-serif;
+}
+.button {
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 20px;
 }
